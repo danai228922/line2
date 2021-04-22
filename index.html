@@ -159,9 +159,21 @@
  {
   "type": "bubble",
   "direction": "ltr",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Header",
+        "align": "center",
+        "contents": []
+      }
+    ]
+  },
   "hero": {
     "type": "image",
-    "url": picHeader,
+    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
     "size": "full",
     "aspectRatio": "1.51:1",
     "aspectMode": "fit"
@@ -172,10 +184,8 @@
     "contents": [
       {
         "type": "text",
-        "text": clipName,
-        "weight": "bold",
+        "text": "Body",
         "align": "center",
-        "wrap": true,
         "contents": []
       }
     ]
@@ -188,10 +198,9 @@
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "คลิกดูเลยจ้า!!",
-          "uri": clipUrl
-        },
-        "style": "primary"
+          "label": "Button",
+          "uri": "https://linecorp.com"
+        }
       }
     ]
   }
